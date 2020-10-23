@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DeepDrawing: A Deep Learning Approach to Graph Drawing</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="./ani-vf/bootstrap.css" rel="stylesheet">
+    <link href="./ani-vf/slider.css" rel="stylesheet">
+    <link href="./ani-vf/box.css" rel="stylesheet">
+    <link href="./ani-vf/style.css" rel="stylesheet" type="text/css" />
+    <!-- CuFon: Enables smooth pretty custom font rendering. 100% SEO friendly. To disable, remove this section -->
+    <!-- CuFon ends -->
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105879829-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <div class="main">
+        <div class="container content_resize">
+            <div class="row">
+                <div class="span10">
+                    <div id="header">
+                        <h1 style="padding-left:0; color:black;font-size:30px">
+                            DeepDrawing: A Deep Learning Approach to Graph Drawing
+                        </h1>
+                        <h4 style="padding-left: 0">
+                            <a href="http://www.yong-wang.org">Yong Wang</a>, <a
+                                href="http://zjinak.student.ust.hk/">Zhihua Jin</a>,  <a href="https://wangqianwen0418.github.io/">Qianwen Wang</a>,
+                                <a href="https://www.microsoft.com/en-us/research/people/weiweicu/">Weiwei Cui</a>,
+                                <a href="https://sites.google.com/site/matf0123/home">Tengfei Ma</a>,
+                                <a href="http://huamin.org/">Huamin Qu</a>
+                        </h4>
+                    </div>
+
+                    <br>
+                    <div id="figures">
+                        <img alt="" src="./deepDrawing/deepDrawing.png" class="img-polaroid img-responsive img-thumbnail" style="margin-left: 7%" width="80%" />
+                        <p style="text-align:justify; margin-top: 20px;">
+                            A comparison of graph drawings of the ground truth (i.e., the graph drawings by ForceAtlas2), the baseline model (i.e., a 4-layer Bi-LSTM model) and our approach. Different colors indicate different communities.
+                        </p>
+
+                    </div>
+
+                    <div id="description">
+                        <h3>
+                            Description
+                        </h3>
+                        <p style="text-align:justify">Node-link diagrams are widely used to facilitate network explorations. However, when using a graph drawing technique to visualize networks, users often need to tune different algorithm-specific parameters iteratively by comparing the corresponding drawing results in order to achieve a desired visual effect. This trial and error process is often tedious and time-consuming, especially for non-expert users. Inspired by the powerful data modelling and prediction capabilities of deep learning techniques, we explore the possibility of applying deep learning techniques to graph drawing. Specifically, we propose using a graph-LSTM-based approach to directly map network structures to graph drawings. Given a set of layout examples as the training dataset, we train the proposed graph-LSTM-based model to capture their layout characteristics. Then, the trained model is used to generate graph drawings in a similar style for new networks. We evaluated the proposed approach on two special types of layouts (i.e., grid layouts and star layouts) and two general types of layouts (i.e., ForceAtlas2 and PivotMDS) in both qualitative and quantitative ways. The results provide support for the effectiveness of our approach. We also conducted a time cost assessment on the drawings of small graphs with 20 to 50 nodes. We further report the lessons we learned and discuss the limitations and future work.</p>
+                    </div>
+
+
+                    <div id="materials">
+                        <h3>
+                            Materials
+                        </h3>
+                        <div class="materials">
+                            <a href="https://arxiv.org/pdf/1907.11040.pdf" class="link">PDF</a> |
+                            <a href="https://github.com/jiayouwyhit/deepdrawing" class="link">Code</a> |
+                            <a href="../slides/deepDrawing-release.pdf" class="link">Slides(pdf)</a> |
+                            <a href="../slides/deepDrawing-release.pptx" class="link">Slides(ppt)</a> |
+                            <a href="https://vimeo.com/369976078" class="link">Talk Video</a> |
+                            <a href="./deepDrawing/bib.txt" class="link">BibTex</a> 
+                        </div>
+                    </div>
+
+                    <div id="publication">
+                        <h3>
+                            Publication
+                        </h3>
+                        <p>
+                            Yong Wang, Zhihua Jin, Qianwen Wang, Weiwei Cui, Tengfei Ma, Huamin Qu. "DeepDrawing: A Deep Learning Approach to Graph Drawing." IEEE transactions on visualization and computer graphics, 2019. In press.
+                        </p>
+                    </div>
+
+                    <div id="videos">
+                        <h3>
+                            Videos
+                        </h3>
+                        <!-- <iframe class="player" src="http://player.vimeo.com/video/289789555" width="800" height="420" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"> -->
+                        <h4>
+                            Fastforward Video in IEEE VIS 19:
+                        </h4>
+                        <video width="100%" controls>
+                          <source src="./deepDrawing/deepDrawing-infoVis19.mp4" type="video/mp4">
+                          <source src="./deepDrawing/deepDrawing-infoVis19.ogg" type="video/ogg">
+                          Your browser does not support the video tag.
+                        </video>
+                        <h4>
+                        Presentation Video in IEEE VIS 19:
+                        </h4>
+                        <video width="100%" controls>
+                            <source src="./deepDrawing/deepdrawing-vis19-talk.mp4" type="video/mp4">
+                            <source src="./deepDrawing/deepdrawing-vis19-talk.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>  
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="footer_resize">
+        <p class="lf">&copy; Copyright (C) 2019 All Rights Reserved.</p>
+    </div>
+    <div class="clr"></div>
+</div>
+</div>
+</body>
+</html>

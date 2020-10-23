@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="./ani-vf/bootstrap.css" rel="stylesheet">
+    <link href="./ani-vf/slider.css" rel="stylesheet">
+    <link href="./ani-vf/box.css" rel="stylesheet">
+    <link href="./ani-vf/style.css" rel="stylesheet" type="text/css" />
+    <!-- CuFon: Enables smooth pretty custom font rendering. 100% SEO friendly. To disable, remove this section -->
+    <!-- CuFon ends -->
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105879829-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <div class="main">
+        <div class="container content_resize">
+            <div class="row">
+                <div class="span10">
+                    <div id="header">
+                        <h1 style="padding-left:0; color:black;font-size:30px">
+                            Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity
+                        </h1>
+                        <h4 style="padding-left: 0">
+                            <a href="http://www.yong-wang.org">Yong Wang</a>, 
+                            <a href="http://cs.swansea.ac.uk/~csdarchambault/">Daniel Archambault</a>,  
+                            <a href="https://hammadhaleem.com/">Hammad Haleem</a>,
+                            <a href="https://vda.cs.univie.ac.at/team/person/49839/">Torsten Moeller</a>,
+                            <a href="http://yhwu.me/">Yanhong Wu</a>,
+                            <a href="http://huamin.org/">Huamin Qu</a>
+                        </h4>
+                    </div>
+
+                    <br>
+                    <div id="figures">
+                        <img alt="" src="./nonuniform-timeslicing/nonuniform-timeslicing.png" class="img-polaroid img-responsive img-thumbnail" style="margin-left: 7%" width="80%" />
+                        <p style="text-align:justify; margin-top: 20px;">
+                            An illustration of the proposed nonuniform timeslicing of dynamic graph based on visual complexity. The top and bottom his- tograms show the original histogram of a dynamic graph dataset and the histogram equalization result, respectively. By dividing the bins evenly in the histogram equalization result, we balance the visual com- plexity across intervals, enhancing the detailed exploration for time periods with bursting edges while coarsening the periods with sparse edges, as shown by the two graphs of the first and last intervals.
+                        </p>
+
+                    </div>
+
+                    <div id="description">
+                        <h3>
+                            Description
+                        </h3>
+                        <p style="text-align:justify">Uniform timeslicing of dynamic graphs has been used due to its convenience and uniformity across the time dimension. However, uniform timeslicing does not take the data set into account, which can generate cluttered timeslices with edge bursts and empty times- lices with few interactions. The graph mining filed has explored nonuniform timeslicing methods specifically designed to preserve graph features for mining tasks. In this paper, we propose a nonuniform timeslicing approach for dynamic graph visualization. Our goal is to create timeslices of equal visual complexity. To this end, we adapt histogram equalization to create timeslices with a similar number of events, balancing the visual complexity across timeslices and conveying more important details of timeslices with bursting edges. A case study has been conducted, in comparison with uniform timeslicing, to demonstrate the effectiveness of our approach.</p>
+                    </div>
+
+
+                    <div id="materials">
+                        <h3>
+                            Materials
+                        </h3>
+                        <div class="materials">
+                            <a href="https://arxiv.org/pdf/1907.12015.pdf" class="link">PDF</a> |
+                            <!-- <span>Code</span> | -->
+                            <!-- <span>Slides</span>| -->
+                            <a href="../slides/nonuniform-timeslicing-release.pdf" class="link">Slides(pdf)</a> |
+                            <a href="../slides/nonuniform-timeslicing-release.pptx" class="link">Slides(ppt)</a> |
+                            <a href="./nonuniform-timeslicing/bib.txt" class="link">BibTex</a> 
+                        </div>
+                    </div>
+
+                    <div id="publication">
+                        <h3>
+                            Publication
+                        </h3>
+                        <p>
+                            Yong Wang, Daniel Archambault, Hammad Haleem, Torsten Moeller, Yanhong Wu, Huamin Qu. "Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity." In Proceedings of IEEE VIS 2019 (Short Paper), 2019. In press.
+                        </p>
+                    </div>
+
+                    <div id="videos">
+                        <h3>
+                            Videos
+                        </h3>
+                        <!-- <iframe class="player" src="http://player.vimeo.com/video/289789555" width="800" height="420" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"> -->
+                        <video width="100%" controls>
+                          <source src="./nonuniform-timeslicing/nonuniform-video.mp4" type="video/mp4">
+                          <source src="./nonuniform-timeslicing/nonuniform-video.ogg" type="video/ogg">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>  
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="footer_resize">
+        <p class="lf">&copy; Copyright (C) 2019 All Rights Reserved.</p>
+    </div>
+    <div class="clr"></div>
+</div>
+</div>
+</body>
+</html>

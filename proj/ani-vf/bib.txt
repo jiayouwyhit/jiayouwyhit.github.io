@@ -1,0 +1,10 @@
+@article{wang2018vector,
+  title={A Vector Field Design Approach to Animated Transitions},
+  author={Wang, Yong and Archambault, Daniel and Scheidegger, Carlos E and Qu, Huamin},
+  journal={IEEE transactions on visualization and computer graphics},
+  volume={24},
+  number={9},
+  pages={2487--2500},
+  year={2018},
+  publisher={IEEE}
+}

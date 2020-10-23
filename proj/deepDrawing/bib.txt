@@ -1,0 +1,10 @@
+@article{wang2019deepdrawing,
+  title={DeepDrawing: A Deep Learning Approach to Graph Drawing},
+  author={Wang, Yong and Jin, Zhihua and Wang, Qianwen and Cui, Weiwei and Ma, Tengfei and Qu, Huamin},
+  journal={IEEE transactions on visualization and computer graphics},
+  year={2020},
+  volume={26},
+  number={1},
+  pages={676-686},
+  publisher={IEEE}
+}

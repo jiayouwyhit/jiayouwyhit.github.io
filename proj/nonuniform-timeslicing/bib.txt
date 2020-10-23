@@ -1,0 +1,8 @@
+@inproceedings{wang2019nonuniform,
+  title={Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity},
+  author={Wang, Yong and Archambault, Daniel and Haleem, Hammad and Moeller, Torsten and Wu, Yanhong and Qu, Huamin},
+  booktitle={Proceedings of IEEE VIS 2019 (Short Paper)},
+  pages={In press},
+  year={2019},
+  organization={IEEE}
+}
